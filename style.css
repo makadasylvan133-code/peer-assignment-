@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(223, 174, 174);
+}
+nav#topmenu ul{
+    list-style: none;
+    background-color: rgb(194, 92, 92);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+nav#topmenu li{
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 20px;
+}
+nav#topmenu a{
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+}
+nav a {
+  color: rgb(102, 8, 8);              
+  text-decoration: none;       
+  padding: 10px 15px;          
+  transition: background 0.3s, color 0.3s; 
+}
+
+nav a:hover {
+  background-color: rgb(102, 8, 8);   
+  color: #0a0a0a;              
+  border-radius: 4px;          
+}
+.favcolor{
+    text-align:center;
+}
+table{
+    color: rgb(8, 8, 8); 
+}
