@@ -39,3 +39,28 @@ nav a:hover {
 table{
     color: rgb(8, 8, 8); 
 }
+/* Desktop Gallery */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Tablet */
+
+@media (max-width: 768px) {
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+/* Mobile */
+
+@media (max-width: 480px) {
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+}
